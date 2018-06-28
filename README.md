@@ -9,7 +9,7 @@ docker build -t citrix_receiver .
 
 ## Start the container
 ```
-docker run -d --name citrix_receiver citrix_receiver
+docker run -d -v /etc/timezone:/etc/timezone:ro -v /etc/localtime:/etc/localtime --name citrix_receiver citrix_receiver
 ```
 
 ## Connect to the container via ssh and X-Forward
