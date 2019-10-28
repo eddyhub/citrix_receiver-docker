@@ -1,3 +1,7 @@
+#IMPORTANT
+
+This repo and the container provided via Docker hub (`https://hub.docker.com/r/eddyhub/citrix_receiver-docker`) IS NO LONGER MAINTAINED by me. Please use the new repo `https://github.com/eddyhub/citrix_workspace_app-container` and the the container `https://hub.docker.com/r/eddyhub/citrix_workspace_app-container`
+
 # Docker container for the Citrix Receiver Client
 
 This is a simple container to run the Citrix Receiver using the firefox browser.
